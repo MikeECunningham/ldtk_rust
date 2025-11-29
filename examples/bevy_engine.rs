@@ -10,7 +10,7 @@ fn main() {
         .add_plugins(DefaultPlugins.set(WindowPlugin {
             primary_window: Some(Window {
                 title: "title".to_string(),
-                resolution: WindowResolution::new(1024.0, 768.0),
+                resolution: WindowResolution::new(1024, 768),
                 ..default()
             }),
             ..default()
